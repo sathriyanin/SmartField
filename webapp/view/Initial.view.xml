@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="project1module.controller.Initial"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns:form="sap.ui.layout.form"
+	xmlns:smartField="sap.ui.comp.smartfield">
+	<form:SimpleForm 
+		minWidth="1024"
+		maxContainerCols="2"
+		editable="true"
+		layout="ResponsiveGridLayout"
+		labelSpanL="3"
+		labelSpanM="3"
+		emptySpanL="4"
+		emptySpanM="4"
+		columnsL="1"
+		columnsM="1"
+		class="editableForm">
+		<form:content>
+			<smartField:SmartField value="{Price}" id="idPrice"/>
+		</form:content>
+	</form:SimpleForm>			
+</mvc:View>
